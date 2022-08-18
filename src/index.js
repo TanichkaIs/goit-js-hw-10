@@ -20,7 +20,7 @@ function searchName() {
         return
     }
   
-
+// render country
      fetchCountries(ourCountry)
          .then(renderCountry)
     .catch((error) => {
